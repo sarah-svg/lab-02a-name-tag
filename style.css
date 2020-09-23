@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(216, 199, 41);
+    justify-content: center;
+    align-items: center;
+  
+
+
+}
+
+main {
+    width: 380px;
+    height: 270px;
+    background-color: turquoise;
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(214, 209, 48);
+    border-radius: 19px;
+   
+    
+}
+
+p {
+  margin: 0;  
+
+}
+
+.hello {
+    font-size: 6em;
+    font-weight: 900;
+    text-transform: uppercase;
+ 
+ 
+
+}
+
+.my-name-is {
+    font-size: 3em;
+    
+}
+
+.name-tag                       {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+section {
+    background-color: rgb(87, 68, 172);
+    color: rgb(211, 194, 41);
+    font-family: fantasy, cursive;
+    height: 115px;
+    font-size: 2.5em;
+   
+
+   
+}

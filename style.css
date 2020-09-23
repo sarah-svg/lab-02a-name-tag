@@ -1,62 +1,47 @@
-body, html {
-    height: 100%;
-}
-
 body {
-    background-color: rgb(216, 199, 41);
-    justify-content: center;
-    align-items: center;
-  
-
-
+    background: powderblue;
+  font-family: fantasy;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
 }
 
 main {
-    width: 380px;
-    height: 270px;
-    background-color: turquoise;
-    font-family: fantasy;
-    text-align: center;
-    color: rgb(214, 209, 48);
-    border-radius: 19px;
+background:teal;
+  border-radius: 5px;
+  width: 375px;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+.top {
+height: 120px;
+border-radius: 5px;
+color: whitesmoke;
+
+} 
+
+.middle {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background:thistle;
+   height: 115px;
+   font-family: cursive;
+  
    
-    
 }
+.bottom {
+ height: 20px;
+ border-radius: 5px;
 
-p {
-  margin: 0;  
-
+ 
 }
-
 .hello {
-    font-size: 6em;
-    font-weight: 900;
-    text-transform: uppercase;
- 
- 
-
+    font-size: 5.5rem;
+    line-height: 1;
 }
-
 .my-name-is {
-    font-size: 3em;
-    
-}
-
-.name-tag                       {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-section {
-    background-color: rgb(87, 68, 172);
-    color: rgb(211, 194, 41);
-    font-family: fantasy, cursive;
-    height: 115px;
-    font-size: 2.5em;
-   
-
-   
+    font-size: 2rem;
 }
